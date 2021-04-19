@@ -1,3 +1,29 @@
 * {
 	box-sizing: border-box;
 }
+
+img {
+	max-width: 100%;
+}
+
+.logo {
+	display: inline-block;
+	position: relative;
+}
+
+.title {
+	display: inline-block;
+	float: right;
+}
+
+.title__name {
+	display: block;
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+.title__designation {
+	display: block;
+	font-size: 1rem;
+	font-weight: 300;
+}
