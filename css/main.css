@@ -34,6 +34,14 @@ img {
 	max-width: fit-content;
 }
 
+.work-heading {
+	display: block;
+	color: #2d3c49;
+	font-size: 1.2rem;
+	font-weight: 900;
+	padding-left: 0.5rem;
+}
+
 .work__1, 
 .work__2, 
 .work__3 {
@@ -71,6 +79,11 @@ footer {
 		width: 100%;
 	}
 	
+	.work-heading {
+		margin: auto;
+		max-width: 700px;
+	}
+
 	.work {
 		margin: auto;
 		display: flex;
