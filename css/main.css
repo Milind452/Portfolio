@@ -28,6 +28,12 @@ img {
 	font-weight: 300;
 }
 
+.primary {
+	margin: auto;
+	padding: 0.5rem;
+	max-width: fit-content;
+}
+
 .work__1, 
 .work__2, 
 .work__3 {
