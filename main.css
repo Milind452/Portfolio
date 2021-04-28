@@ -186,3 +186,12 @@ p {
 	font-size: 1.5rem;
 	text-shadow: 2px 2px 1px #1f1f1f;
 }
+
+footer {
+	background-color: var(--main-gray);
+	border-top: 4px solid var(--main-red);
+	padding: 2rem;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 1rem;
+}
