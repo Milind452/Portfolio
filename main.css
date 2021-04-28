@@ -10,6 +10,8 @@
 
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 img {
@@ -41,7 +43,7 @@ body {
 .nav .nav__list {
 	list-style: none;
 	display: flex;
-	margin-right: 2rem;
+	margin-right: 1.2rem;
 }
 
 .nav .nav__links {
@@ -49,6 +51,6 @@ body {
 	display: block;
 	cursor: pointer;
 	color: var(--main-white);
-	font-size: 2.2rem;
-	padding: 2rem;
+	font-size: 1.2rem;
+	padding: 1.2rem;
 }
