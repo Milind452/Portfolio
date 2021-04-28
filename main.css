@@ -74,6 +74,10 @@ p {
 	padding: 1.2rem;
 }
 
+.nav__links:hover {
+	background-color: var(--main-blue);
+}
+
 .welcome-section {
 	display: flex;
 	flex-direction: column;
