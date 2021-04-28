@@ -5,9 +5,86 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Milind's Portfolio</title>
 		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
 	</head>
-
 	<body>
-		
+		<aside>
+			<nav id="navbar" class="nav">
+				<ul class="nav__list">
+					<li><a class="nav__links" href="#welcome-section">About</a></li>
+					<li><a class="nav__links" href="#projects">Work</a></li>
+					<li><a class="nav__links" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</aside>
+		<main>
+			<section id="welcome-section" class="welcome-section">
+				<div class="welcome__header">
+					<h1>Hey, I am Milind</h1>
+					<p>a web developer</p>
+				</div>
+			</section>
+			<section id="projects" class="projects">
+				<h2 class="projects__header">These are some of my projects</h2>
+				<div class="projects__grid">
+					<div class="project-tile">
+						<a class="project" href="https://milind452.github.io/hawking-tribute/" target=_blank">
+							<img class="project__image" src="https://i.guim.co.uk/img/media/289436add9165a86fd34cc60616e77e6e124aef5/0_63_3504_2102/master/3504.jpg?width=620&quality=85&auto=format&fit=max&s=797664405269816e9b1b1b2572024956" alt="Project Tribute Page">
+							<p class="project__title">Tribute Page</p>
+						</a>
+					</div>
+					<div class="project-tile">
+						<a class="project" href="https://milind452.github.io/survey-form/" target=_blank">
+							<img class="project__image" src="https://as1.ftcdn.net/jpg/01/62/71/42/500_F_162714284_a1pESgqq4Rr4r7YAehTMHjJ6nResVeXw.jpg" alt="Project Survey Form">
+							<p class="project__title">Survey Form</p>
+						</a>
+					</div>
+					<div class="project-tile">
+						<a class="project" href="https://milind452.github.io/landing-page/" target=_blank">
+							<img class="project__image" src="https://i.pinimg.com/originals/f2/c5/23/f2c5231b0e41df954d6727db312f98d8.jpg" alt="Project Product Landing Page">
+							<p class="project__title">Product Landing Page</p>
+						</a>
+					</div>
+					<div class="project-tile">
+						<a class="project" href="https://milind452.github.io/js-documentation-page/" target=_blank">
+							<img class="project__image" src="https://i0.wp.com/innertruth.org/wp-content/uploads/2016/03/js-logo.png?w=500&ssl=1" alt="Project Technical Documentation">
+							<p class="project__title">Technical Documentation</p>
+						</a>
+					</div>
+				</div>
+				<a class="btn projects__btn-show-all" href="https://github.com/Milind452" target="_blank">Show all</a>
+			</section>
+			<section id="contact" class="contact">
+				<div class="contact__header">
+					<h2>Let's work together...</h2>
+					<p>How do you take your coffee?</p>
+				</div>
+				<div class="contact__links">
+					<a class="btn contact__details" href="https://github.com/Milind452" target="_blank">
+						<i class="fab fa-github"></i>
+						Github
+					</a>
+					<a class="btn contact__details" href="https://www.linkedin.com/in/milind452/" target="_blank">
+						<i class="fab fa-linkedin"></i>
+						LinkedIn
+					</a>
+					<a class="btn contact__details" href="mailto:mohapatra.milind@gmail.com" target="_blank">
+						<i class="fas fa-at"></i>
+						Send a mail
+					</a>
+					<a class="btn contact__details" href="tel:9090480487" target="_blank">
+						<i class="fas fa-mobile-alt"></i>
+						Call me
+					</a>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="copyright">
+				<span>
+					&copyCreated by Milind Mohapatra
+				</span>
+			</div>
+		</footer>
 	</body>
 </html>
