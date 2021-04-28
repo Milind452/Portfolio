@@ -150,3 +150,18 @@ p {
 .projects__btn-show-all:hover {
 	background-color: var(--main-red);
 }
+
+.contact {
+	background-color: var(--main-gray);
+	text-align: center;
+	color: var(--main-white);
+}
+
+.contact__header h2 {
+	font-size: 3.5rem;
+}
+
+.contact__header p {
+	color: var(--main-white);
+	font-size: 1.3rem;
+}
