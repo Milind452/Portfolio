@@ -195,6 +195,10 @@ p {
 	text-shadow: 2px 2px 1px #1f1f1f;
 }
 
+.contact__details:hover {
+	text-shadow: 4px 4px 2px #1f1f1f;
+}
+
 footer {
 	background-color: var(--main-gray);
 	border-top: 4px solid var(--main-red);
