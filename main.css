@@ -130,6 +130,7 @@ p {
 }
 
 .project__image {
+	background-color: white;
 	object-fit: cover;
 	width: 100%;
 	height: calc(100% - 4.5rem);
